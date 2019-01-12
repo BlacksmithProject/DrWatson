@@ -7,6 +7,8 @@
 
 ### New features
 
+- remove final from `\BSP\DrWatson\DrWatson`
+
 ### Bugfixes
 
 </details>

@@ -12,7 +12,7 @@ use Throwable;
  *
  * Add type, suspect and help to \Exception, in order to have easier times when debugging.
  */
-final class DrWatson extends \Exception
+class DrWatson extends \Exception
 {
     /**
      * @var Enum
