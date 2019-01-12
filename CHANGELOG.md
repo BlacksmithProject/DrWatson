@@ -9,9 +9,13 @@
 
 ### Bugfixes
 
-- `\BSP\DrWatson\DrWatson::report` return specification with annotation
-
 </details>
+
+## v0.2.1
+
+### Bugfixes
+
+- `\BSP\DrWatson\DrWatson::report` return specification with annotation
 
 ## v0.2.0
 
