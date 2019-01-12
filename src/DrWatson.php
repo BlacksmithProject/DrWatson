@@ -56,6 +56,8 @@ class DrWatson extends \Exception
 
     /**
      * Named Constructor. DrWatson writes a fine report for you !
+     *
+     * @return static
      */
     public static function report(
         Enum $drWatsonExceptionType,
@@ -64,7 +66,7 @@ class DrWatson extends \Exception
         string $help = "",
         int $code = 0,
         Throwable $previous = null
-    ): self {
+    ) {
         return new static($drWatsonExceptionType, $message, $suspect, $help, $code, $previous);
     }
 
