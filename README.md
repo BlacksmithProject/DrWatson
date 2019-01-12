@@ -18,6 +18,8 @@ type, suspect and help.
 
 ## Installation:
 
+`composer require blacksmith-project/dr-watson`
+
 ## How to use it:
 
 You can throw a `DrWatson::report`.
