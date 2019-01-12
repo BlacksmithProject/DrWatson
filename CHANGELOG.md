@@ -5,13 +5,17 @@
 
 ### BREAKING CHANGES
 
-- `\BSP\DrWatson\DrWatson::report` now return static instead of self
-
 ### New features
 
 ### Bugfixes
 
 </details>
+
+## v0.2.0
+
+### BREAKING CHANGES
+
+- `\BSP\DrWatson\DrWatson::report` now return static instead of self
 
 ## v0.1.1
 
