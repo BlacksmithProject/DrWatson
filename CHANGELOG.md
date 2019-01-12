@@ -7,13 +7,17 @@
 
 ### New features
 
-- remove final from `\BSP\DrWatson\DrWatson`
-
 ### Bugfixes
 
 </details>
 
-# v0.1.0
+## v0.1.1
+
+### New features
+
+- remove final from `\BSP\DrWatson\DrWatson`
+
+## v0.1.0
 
 ### New features
 
