@@ -5,13 +5,17 @@
 
 ### BREAKING CHANGES
 
-- Remove `\BSP\DrWatson\DrWatson::report` and make public constructor
-
 ### New features
 
 ### Bugfixes
 
 </details>
+
+## v0.3.0
+
+### BREAKING CHANGES
+
+- Remove `\BSP\DrWatson\DrWatson::report` and make public constructor
 
 ## v0.2.1
 
