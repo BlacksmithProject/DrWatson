@@ -40,7 +40,7 @@ class DrWatson extends \Exception
      */
     private $help;
 
-    private function __construct(
+    public function __construct(
         Enum $exceptionType,
         string $message = "",
         string $suspect = "",
@@ -52,22 +52,6 @@ class DrWatson extends \Exception
         $this->type = $exceptionType;
         $this->suspect = $suspect;
         $this->help = $help;
-    }
-
-    /**
-     * Named Constructor. DrWatson writes a fine report for you !
-     *
-     * @return static
-     */
-    public static function report(
-        Enum $drWatsonExceptionType,
-        string $message = "",
-        string $suspect = "",
-        string $help = "",
-        int $code = 0,
-        Throwable $previous = null
-    ) {
-        return new static($drWatsonExceptionType, $message, $suspect, $help, $code, $previous);
     }
 
     public function type(): Enum

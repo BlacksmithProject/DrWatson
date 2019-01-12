@@ -11,7 +11,7 @@ final class DrWatsonTest extends TestCase
 {
     public function testReportWithDrWatson(): void
     {
-        $exception = DrWatson::report(
+        $exception = new DrWatson(
             ExceptionType::INPUT(),
             'input.email.invalid',
             'email',
