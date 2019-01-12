@@ -65,7 +65,7 @@ class DrWatson extends \Exception
         int $code = 0,
         Throwable $previous = null
     ): self {
-        return new self($drWatsonExceptionType, $message, $suspect, $help, $code, $previous);
+        return new static($drWatsonExceptionType, $message, $suspect, $help, $code, $previous);
     }
 
     public function type(): Enum
