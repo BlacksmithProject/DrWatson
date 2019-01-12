@@ -1,5 +1,9 @@
 # BlacksmithProject - DrWatson
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/BlacksmithProject/DrWatson/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/BlacksmithProject/DrWatson/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/BlacksmithProject/DrWatson/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/BlacksmithProject/DrWatson/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/BlacksmithProject/DrWatson/badges/build.png?b=master)](https://scrutinizer-ci.com/g/BlacksmithProject/DrWatson/build-status/master)
+
 A PHP library enhancing `\Exception`.
 
 ## Why ?
