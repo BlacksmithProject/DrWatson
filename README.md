@@ -42,7 +42,7 @@ exposed here, to help you narrow the issue down.
 
 ```php
 if (!$this->isValid($email)) {
-    throw DrWatson::report(
+    throw new DrWatson(
         ExceptionType::INPUT(),
         'email',
         'It seems that User provided an invalid email. Please make sure a typo was not made.',
